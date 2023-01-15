@@ -1,0 +1,56 @@
+body {
+  direction: rtl;
+  background-image: url('mmm.jpg');
+}
+
+.form_inner {
+  padding: 80px;
+  border: 11px solid #fe3f6b;
+  border-radius: 20%;
+}
+
+.myform_sec {
+  width: 950px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 50px;
+}
+
+.myform_sec label {
+  padding-left: 8px;
+  color: #ff003b;
+}
+
+.myform_sec input {
+  padding: 12px;
+  border: 1px #fe3f6b solid;
+}
+
+.myform_sec ::placeholder {
+  color: #fe3f6b;
+}
+
+.form_head {
+  padding-bottom: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ff003b;
+}
+
+.row_cnt {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 32px;
+  align-items: center;
+}
+
+.submit {
+  direction: ltr;
+}
+
+.submit input {
+  background-color: #ff003b;
+  color: #fff;
+}
+
+

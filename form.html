@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="form1.css">
+      <title>Document</title>
+  </head>
+  <body>
+    <section class="myform_sec">
+      <div class="form_inner">
+        <header class="form_head">تماس با ما</header>
+        <form class="form">
+          <div class="row_cnt">
+            <div>
+              <label  for="fname">نام:</label>
+              <input type="text" id="fname" name="fname" placeholder="...">
+            </div>
+            <div>
+              <label for="lname">نام‌ خانوادگی:</label>
+              <input type="text" id="lname" name="lname" placeholder="...">
+            </div>
+          </div>
+          <div class="row_cnt">
+            <div>
+              <label for="css">سن:</label>
+              <input type="number" name="age" min="18" max="65" placeholder="...">
+            </div>
+            <div>
+              <label for="css">شماره تلفن:</label>
+              <input type="tel" name="tel" placeholder="..." pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+            </div>
+          </div>
+          <div class="row_cnt">
+            <div class="">
+              <label for="gender">جنسیت:</label>
+              <label for="female">زن</label>
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="male">مرد</label>
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="other">دیگر</label>
+              <input type="radio" id="other" name="gender" value="other">
+            </div>
+            <div>
+              <label for="css">رمز</label>
+              <input type="password" name="pass" placeholder="...">
+            </div>
+          </div>
+          <div class="row_cnt submit">
+            <input class="" type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
