@@ -4,13 +4,12 @@ body {
 }
 
 .form_inner {
-  padding: 80px;
-  border: 11px solid #fe3f6b;
-  border-radius: 20%;
+  padding: 50px 50px 0 50px;
+  border: 6px solid #fe3f6b;
 }
 
 .myform_sec {
-  width: 950px;
+  width: 750px;
   margin: 0 auto;
   background-color: #fff;
   padding: 50px;
@@ -18,12 +17,12 @@ body {
 
 .myform_sec label {
   padding-left: 8px;
-  color: #ff003b;
+  color: #858585;
 }
 
 .myform_sec input {
   padding: 12px;
-  border: 1px #fe3f6b solid;
+  border: 1px #858585 solid;
 }
 
 .myform_sec ::placeholder {
@@ -34,7 +33,7 @@ body {
   padding-bottom: 20px;
   font-size: 1.5em;
   font-weight: bold;
-  color: #ff003b;
+  color: #858585;
 }
 
 .row_cnt {
@@ -49,7 +48,7 @@ body {
 }
 
 .submit input {
-  background-color: #ff003b;
+  background-color: #858585;
   color: #fff;
 }
 
