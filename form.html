@@ -14,12 +14,12 @@
         <form class="form">
           <div class="row_cnt">
             <div>
-              <label  for="fname">نام:</label>
+              <label for="fname">نام:</label>
               <input type="text" id="fname" name="fname" placeholder="..." autocomplete="on" required>
             </div>
             <div>
               <label for="lname">نام‌ خانوادگی:</label>
-              <input type="text" id="lname" name="lname" placeholder="..." autocomplete="off" required>
+              <input type="text" id="lname" name="lname" placeholder="..." autocomplete="off">
             </div>
           </div>
           <div class="row_cnt">
@@ -44,7 +44,11 @@
             </div>
             <div>
               <label for="css">رمز</label>
-              <input type="password" name="pass" placeholder="..." required>
+              <input type="password" minlength="4" maxlength="20" name="pass" placeholder="..." required>
+            </div>
+            <div>
+              <label for="fname">سازمان:</label>
+              <input type="text" id="fname" name="fname" placeholder="..." autocomplete="off">
             </div>
           </div>
           <div class="row_cnt submit">

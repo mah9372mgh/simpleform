@@ -52,4 +52,20 @@ body {
   color: #fff;
 }
 
+input:invalid {
+  border: 2px dashed rgb(255, 0, 221);
+}
+
+input:invalid:required {
+  background-image: linear-gradient(to right, pink, lightgreen);
+}
+
+input:valid {
+  border: 2px solid rgb(0, 255, 34);
+}
+
+form #fname {
+  text-transform: lowercase;
+}
+
 
